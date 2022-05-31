@@ -1,0 +1,16 @@
+client                = "lex"
+environment           = "test"
+resourcegroupname     = "abinrsg"
+resourcegrouplocation = "eastus"
+vnetname              = "vnet"
+vnetaddress           = ["10.0.0.0/16"]
+webSubnetname         = "abinweb"
+websubnetaddress      = ["10.0.1.0/24"]
+webnsg                = "web-nsg1"
+hostname              = "web-vm"
+size                  = "Standard_B2s"
+user                  = "adminuser"
+password              = "root@123"
+pubipname             = "web-pub"
+vnicname              = "web-lin-nic1"
+privateip             = "10.0.1.8"
