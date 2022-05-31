@@ -91,4 +91,5 @@ stages:
           - task: Bash@3
             inputs:
               filePath: '$(Pipeline.Workspace)/terraform-artefacts/rover.sh'
+              arguments: '$(Pipeline.Workspace)/terraform-artefacts/'
           
