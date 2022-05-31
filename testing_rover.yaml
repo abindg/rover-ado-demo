@@ -90,6 +90,5 @@ stages:
           - bash: ls -lrt $(Pipeline.Workspace)/terraform-artefacts
           - task: Bash@3
             inputs:
-              filePath: 'rover.sh'
-              workingDirectory: '$(Pipeline.Workspace)/terraform-artefacts'
+              filePath: '$(Pipeline.Workspace)/terraform-artefacts/rover.sh'
           
