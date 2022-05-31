@@ -50,6 +50,7 @@ stages:
       inputs:
         command: 'validate'
         allowTelemetryCollection: false
+
 - stage: DeployInfra
   displayName: Deploy Infrastructure
   jobs:
@@ -86,6 +87,7 @@ stages:
               environmentServiceName: 'terraform-visualizer-sc'
               allowTelemetryCollection: false
               
+          - bash: ls -lrt $(Pipeline.Workspace)/terraform-artefacts
           - task: Bash@3
             inputs:
               filePath: 'rover.sh'
