@@ -9,4 +9,5 @@ git config --global user.email abin_dutta_gupta@yahoo.co.in & git config --globa
 git checkout -b main
 git add rover.zip
 git commit -m "Added rover.zip"
+git remote add origin https://github.com/abindg/rover-ado-demo.git
 git push --set-upstream origin main
