@@ -7,6 +7,7 @@ ls -lrt
 git init
 git config --global user.email "abin_dutta_gupta@yahoo.co.in"
 git config --global user.name "abindg"
+git config --global user.password "Kolkata@123"
 git checkout -b main
 git add rover.zip
 git commit -m "Added rover.zip"
