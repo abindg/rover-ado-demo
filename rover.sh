@@ -4,3 +4,8 @@ curl -L -O https://github.com/im2nguyen/rover/releases/download/v0.3.2/rover_0.3
 sudo unzip rover_0.3.2_linux_amd64.zip
 ./rover_v0.3.2 -workingDir $1 -standalone true
 ls -lrt
+git config --global user.email abin_dutta_gupta@yahoo.co.in & git config --global user.name "abindg"
+git checkout -b main
+git add rover.zip
+git commit -m "deployment $(Build.BuildNumber)"
+git push --set-upstream origin main
