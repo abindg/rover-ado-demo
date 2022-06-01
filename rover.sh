@@ -5,9 +5,9 @@ sudo unzip rover_0.3.2_linux_amd64.zip
 ./rover_v0.3.2 -workingDir $1 -standalone true
 ls -lrt
 git init
-git config --global user.email "abin_dutta_gupta@yahoo.co.in"
-git config --global user.name "abindg"
-git config --global user.password "Eastbengal@123"
+#git config --global user.email "abin_dutta_gupta@yahoo.co.in"
+#git config --global user.name "abindg"
+#git config --global user.password "Eastbengal@123"
 git checkout -b main
 git add rover.zip
 git commit -m "Added rover.zip"
