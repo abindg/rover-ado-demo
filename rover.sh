@@ -7,9 +7,9 @@ ls -lrt
 git init
 git config --global user.email "abin_dutta_gupta@yahoo.co.in"
 git config --global user.name "abindg"
-git config --global user.password "Kolkata@123"
+git config --global user.password "Eastbengal@123"
 git checkout -b main
 git add rover.zip
 git commit -m "Added rover.zip"
 git remote add origin https://github.com/abindg/rover-ado-demo.git
-git push --set-upstream origin main
+git push https://abindg:Eastbengal@123@https://github.com/abindg/rover-ado-demo.git 
