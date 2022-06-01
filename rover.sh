@@ -12,4 +12,4 @@ git checkout -b main
 git add rover.zip
 git commit -m "Added rover.zip"
 git remote add origin https://github.com/abindg/rover-ado-demo.git
-git push https://"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"@github.com/abindg/rover-ado-demo.git
+git push https://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@github.com/abindg/rover-ado-demo.git
